@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+  <title>Project</title><!--
+        Richard Behlmer
+        CSCE 102 - 001
+        May 30th, 2023
+                -->
+		<link rel="stylesheet" href ="styles.css">
+</head>
+<div id="content">
+<body>
+	<header>
+		<h1>Richard Behlmer's Quiz</h1>
+		<nav id="main-nav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="quiz.html">Quiz</a></li>
+				<li><a href="contact.html">Contact Me</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div style = "text-align: center;">
+<img src="images/screenshot.PNG" alt="Screenshot" height="150" width="500">
+	</div>
+<div class="columns">
+	<section class ="halfcolumn">
+		<h3>Website Development Quiz</h3>
+		<p>
+			<label for="quest-a">Around How Many Webpages Have Been Made In HTML?</label>
+			<select id="quest-a">
+				<option value="untrue-a">4.2 Billion</option>
+				<option value="false-a">6.9 Billion </option>
+				<option value="truth-a">1.1 Billion</option>
+				<option value="lie-a">0.9 Billion</option>
+			</select>
+		</p>
+		<p>
+			<label for="quest-b">What Do You Use To Identify A Class In CSS?</label>
+			<select id="quest-b">
+				<option value="false-b">#</option>
+				<option value="truth-b">.</option>
+				<option value="untrue-b">*</option>
+				<option value="lie-b">;</option>
+			</select>
+		</p>
+		<p>
+			<label for="quest-c">What Does The JS In Script JS Stand For?</label>
+			<select id="quest-c">
+				<option value="untrue-c">JamaicaStory</option>
+				<option value="false-c">JapanScroll</option>
+				<option value="truth-c">JavaScript</option>
+				<option value="lie-c">JordanShoe</option>
+			</select>
+		</p>
+		<p>
+			<label for="quest-d">Who Created HTML?</label>
+			<select id="quest-d">
+				<option value="truth-d">Tim Berners-Lee</option>
+				<option value="false-d">Ada Lovelace</option>
+				<option value="untrue-d">Charles Babbage</option>
+				<option value="lie-d">Bill Gates</option>
+			</select>
+		</p>
+		<p>
+			<button onclick="showGrade()">Submit</button>
+		</p>
+	</section>
+	<section class="halfcolumn">
+		<h3>Quiz Results</h3>
+		<div id="grade" class="sneak">
+		<p id = "result-a"></p>
+		<p id = "result-b"></p>
+		<p id = "result-c"></p>
+		<p id = "result-d"></p>
+		<p id = "the-score"></p>
+		</div>
+	</section>
+</div>
+	<footer>
+		<p>&copy; The Richbell Company</p>
+	</footer>
+	<script src="script.js"></script>
+</body>
+</html>

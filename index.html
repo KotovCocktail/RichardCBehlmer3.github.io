@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+  <title>Project</title><!--
+        Richard Behlmer
+        CSCE 102 - 001
+        June 15th, 2023
+                -->
+		<link rel="stylesheet" href ="styles.css">
+</head>
+<div id="content">
+<body>
+	<header>
+		<h1>Richard Behlmer</h1>
+		<nav id="main-nav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="quiz.html">Quiz</a></li>
+				<li><a href="contact.html">Contact Me</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div style = "text-align: center;">
+		<img class="visible" id="pimg1" src="images/earth.png" height="150" width="500">
+		<img class="hidden" id="pimg2" src="images/water.png" height="150" width="500">
+		<img class="hidden" id="pimg3" src="images/fire.png" height="150" width="500">
+		<img class="hidden" id="pimg4" src="images/air.png" height="150" width="500">
+		<img class="hidden" id="pimg5" src="images/energy.png" height="150" width="500">
+	</div>
+		<div class="columns">
+			<main class="two-thirds column">
+				<h3>About Me</h3>
+					<p>My name is Richard Behlmer and I was born in Charleston, South Carolina on February 21st, 2003. My favorite type of food is tex-mex, while my favorite dessert is Hummingbird cake, and my favorite breakfast item is grits. Another thing to note is that one of my favorite hobbies is studying history, since I enjoy looking at stories of the past, with a particular liking of the Mongol Conquests and the Early Byzantine Empire.</p>
+					<p id = "p2" class="hidden">My favorite place to go is probably either the beach with the sand between my toes and the nice breeze flowing against me, with the water being nice and cool against the summer heat, in June and July, until the ocean warms up in August. Or a national park, as despite how much time I spend inside I do enjoy going outside to a national park to be with nature, every once and a while. My favorite film of all time is probably Spiderman: Into The Spiderverse due to its wild experimental animation and bold storytelling.</p>
+					<a id = "expandP" href="#" onclick="showfullstory()">See More...</a>
+			</main>
+			<aside class="two-thirds column">
+				<h3>My Future Career Plans</h3>
+					<p>My current major is a BS in Geography, as I do really enjoy both nature and believe in conservation efforts, which are best kept up not by activisim, but by having people in positions that can actually use tht power to help the wilderness. Another reason I chose Geography as my major is because even if I don't love what I am doing, I should be able to keep doing it as long as it is something important that matters. Finally, the reason I chose a BS rather than a BA in geography is that the BS just gives you more options after you graduate versus just getting a BA.</p>
+					<p id = "q2" class="hide">My current minor is Education as I believe that education is very important to the health of society and believe that doing so would be a good thing overall. I also chose education as I have a passion for and very much like to learn new and different things, so being able to impart that on a new generation would be a good thing. Finally, I chose it as my minor since if for some reason I can't find work with a geography degree, I will never be out of work If I can work as a teacher.</p>
+			<a id = "contractP" href="#" onclick="showcompletestory()">See More...</a>
+			<h3>Benefits Of Computer Science Class </h3>
+			<iframe width="330" height="280" src="https://www.youtube-nocookie.com/embed/5Yc8PDxYvRI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			</aside>
+		</div>
+	<footer>
+		<p>&copy; The Richbell Company</p>
+	</footer>
+	<script src="script.js"></script>
+</body>
+</html>
